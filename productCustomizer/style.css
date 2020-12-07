@@ -29,11 +29,25 @@ body {
     float: left;
     width: 50%;
 }
-.colonna > img {
+.colonna-subdiv > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid rgb(151, 151, 151);
+}
+.colonna-subdiv {
+    position: relative;
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#displayText {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #product__name {
@@ -78,7 +92,8 @@ body {
 }
 #f3 > input {
     margin-left: 15px;
-    padding: 2px 0;
+    padding: 2px;
+    width: 25%;
 }
 
 .color-label {
