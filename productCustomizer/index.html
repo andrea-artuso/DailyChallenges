@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Customizer</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+    <h1>PRODUCT CUSTOMIZER</h1>
+
+    <div class="row">
+        <div class="colonna">
+            <img src="" alt="product image">
+            <h3 id="displayText"></h3>
+        </div>
+        <div class="colonna">
+            <h2 id="product__name">Felpa con cappuccio - Special edition</h2>
+            <h2 id="product__price">40€</h2>
+
+            <p id="prodcut__caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <form>
+                <p>Please select your size:</p>
+                <input type="radio" id="s-size" name="size" value="s">
+                <label for="s">S</label>
+
+                <input type="radio" id="m-size" name="size" value="m">
+                <label for="m">M</label>
+
+                <input type="radio" id="l-size" name="size" value="l">
+                <label for="l">L</label>
+            </form>
+
+            <h3>Customize <i class="fa fa-angle-down"></i></h3>
+            <div class="customization-settings">
+                <form>
+                    <label>Color: </label>
+                    <input type="radio" id="white" name="color" value="#fff">
+    
+                    <input type="radio" id="black" name="color" value="#000">
+    
+                    <input type="radio" id="red" name="color" value="#ff0000">
+
+                    <input type="radio" id="blue" name="color" value="#0000ff">
+                </form>
+
+                <form>
+                    <label>Text: </label>
+                    <input type="text" placeholder="your name">
+                    <i class="fa fa-close"></i>
+                </form>
+
+                <form>
+                    <label>Text color: </label>
+                    <input type="radio" id="textWhite" name="text-color" value="#fff">
+    
+                    <input type="radio" id="textBlack" name="text-color" value="#000">
+    
+                    <input type="radio" id="textRed" name="text-color" value="#ff0000">
+
+                    <input type="radio" id="textBlue" name="text-color" value="#0000ff">
+                </form>
+
+                <button id="preview">Preview</button>
+            </div>
+
+        </div>
+    </div>
+
+    <p>made by <a href="http://andrea-artuso.rf.gd/">Andrea Artuso</a></p>
+
+<script src="/main.js"></script>
+</body>
+</html>
