@@ -7,3 +7,8 @@
 body {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
+.title {
+    width: 100%;
+    text-align: center;
+}
+
