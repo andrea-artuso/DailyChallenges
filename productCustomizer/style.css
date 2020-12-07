@@ -46,6 +46,10 @@ body {
     max-width: 60%;
 }
 
+.customization-settings {
+    display: none;
+}
+
 #f1 > p {
     font-weight: 600;
 }
