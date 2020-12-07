@@ -60,8 +60,21 @@ body {
 #f2, #f3, #f4 {
     margin-bottom: 15px;
 }
-#white:after {
-    background-color: red;
+#f2 > input,label {
+    vertical-align: middle;
+}
+#f4 > input,label {
+    vertical-align: middle;
+}
+#f2 > label {
+    margin-right: 10px;
+}
+#f4 > label {
+    margin-right: 10px;
+}
+
+.color-label {
+    font-size: 12px;
 }
 
 
