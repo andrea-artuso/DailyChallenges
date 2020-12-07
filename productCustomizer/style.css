@@ -11,9 +11,19 @@ body {
     width: 100%;
     text-align: center;
 }
+#footer {
+    position: absolute;
+    bottom: 3vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#footer > a {
+    color: black;
+    font-weight: 600;
+}
 
 .row {
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 .colonna{
     float: left;
@@ -26,6 +36,33 @@ body {
     border: 1px solid rgb(151, 151, 151);
 }
 
+#product__name {
+    margin-top: 50px;
+}
+#product__price {
+    color: rgb(255, 87, 87);
+}
+#product__caption {
+    max-width: 60%;
+}
+
+#f1 > p {
+    font-weight: 600;
+}
+#f1 > label {
+    margin-right: 20px;
+}
+
+#custom {
+    text-decoration: underline;
+}
+
+#f2, #f3, #f4 {
+    margin-bottom: 15px;
+}
+#white:after {
+    background-color: red;
+}
 
 
 
