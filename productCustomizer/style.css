@@ -74,6 +74,9 @@ body {
 #custom {
     text-decoration: underline;
 }
+#custom:hover {
+    cursor: pointer;
+}
 
 #f2, #f3, #f4 {
     margin-bottom: 15px;
